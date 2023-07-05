@@ -36,7 +36,7 @@
         Y: =694
         ZIndex: =3
 
-    "'3dSmithsonianViewer' As 'View in 3D (preview)'.pcfdataset":
+    "'3dSmithsonianViewer' As PCF_3DViewer.pcfdataset":
         BackgroundFill: =Color.Transparent
         DisplayMode: =DisplayMode.Edit
         Height: =536

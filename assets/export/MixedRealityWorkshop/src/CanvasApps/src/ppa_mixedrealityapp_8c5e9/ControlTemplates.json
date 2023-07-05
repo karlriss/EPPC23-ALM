@@ -13,6 +13,21 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
+  "Beschriftung": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_Label",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Microsoft_CoreControls_Label",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Beschriftung",
+    "Version": "1.6.0"
+  },
   "button": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -27,20 +42,19 @@
     "OverridableProperties": {},
     "Version": "2.2.0"
   },
-  "Button": {
+  "circle": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_Button",
+    "Id": "http://microsoft.com/appmagic/shapes/circle",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
+    "IsPcfControl": false,
     "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
+    "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "Microsoft_CoreControls_Button",
+    "Name": "circle",
     "OverridableProperties": {},
-    "TemplateDisplayName": "Button",
-    "Version": "1.5.2"
+    "Version": "2.3.0"
   },
   "gallery": {
     "CustomGroupControlTemplateName": "",
@@ -155,64 +169,7 @@
     "OverridableProperties": {},
     "Version": "2.5.1"
   },
-  "Label": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_Label",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "Microsoft_CoreControls_Label",
-    "OverridableProperties": {},
-    "TemplateDisplayName": "Label",
-    "Version": "1.6.0"
-  },
-  "rectangle": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/shapes/rectangle",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "rectangle",
-    "OverridableProperties": {},
-    "Version": "2.3.0"
-  },
-  "screen": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/screen",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "screen",
-    "OverridableProperties": {},
-    "Version": "1.0"
-  },
-  "text": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/text",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": false,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": true,
-    "LastModifiedTimestamp": "0",
-    "Name": "text",
-    "OverridableProperties": {},
-    "Version": "2.3.2"
-  },
-  "View in 3D (preview)": {
+  "PCF_3DViewer": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/powercontrol/ViewIn3D",
@@ -224,10 +181,10 @@
     "LastModifiedTimestamp": "0",
     "Name": "ViewIn3D",
     "OverridableProperties": {},
-    "TemplateDisplayName": "View in 3D (preview)",
+    "TemplateDisplayName": "PCF_3DViewer",
     "Version": "1.2.22"
   },
-  "View in MR (preview)": {
+  "PCF_ArButton": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/powercontrol/ViewInMR",
@@ -274,7 +231,64 @@
         "PCFSkipValidation": false
       }
     },
-    "TemplateDisplayName": "View in MR (preview)",
+    "TemplateDisplayName": "PCF_ArButton",
     "Version": "1.0.29"
+  },
+  "rectangle": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/shapes/rectangle",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "rectangle",
+    "OverridableProperties": {},
+    "Version": "2.3.0"
+  },
+  "Schaltfläche": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/Microsoft_CoreControls_Button",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "Microsoft_CoreControls_Button",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Schaltfläche",
+    "Version": "1.5.2"
+  },
+  "screen": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/screen",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "screen",
+    "OverridableProperties": {},
+    "Version": "1.0"
+  },
+  "text": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/text",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "text",
+    "OverridableProperties": {},
+    "Version": "2.3.2"
   }
 }
